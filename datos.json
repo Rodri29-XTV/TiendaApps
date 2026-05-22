@@ -1,1 +1,10 @@
-
+{
+  "whitelisted_ids": [
+    "836207b6c07f3aae"
+  ],
+  "clientes_premium": [],
+  "configuracion": {
+    "fecha_actualizacion": "2026-05-21",
+    "modo_ahorro_datos": false
+  }
+}
