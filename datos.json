@@ -4,9 +4,325 @@
     "836207b6c07f3aae",
     "5860268a757d7028"
   ],
-  "clientes_premium": [],
   "configuracion": {
-    "fecha_actualizacion": "2026-05-21",
-    "modo_ahorro_datos": false
-  }
+    "fecha_actualizacion": "2026-05-27",
+    "banner_rotacion_segundos": 7,
+    "banner_intervalo_segundos": 5,
+    "modo_ahorro_datos": false,
+    "tema_defecto": "oscuro",
+    "fondo_url": "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/fondos/fondo_tienda.jpg"
+  },
+  "banners": [
+    {
+      "id": 1,
+      "titulo": "¡Bienvenidos a la Tienda!",
+      "imagen_url": "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/banners/bienvenida.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Soporte y VIP",
+      "imagen_url": "https://raw.githubusercontent.com/TU_USUARIO/TU_REPO/main/banners/soporte.jpg"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "cat_ambiente",
+      "nombre": "Especial Mundial 2026",
+      "apps": [
+        {
+          "id": "musica_mundial",
+          "nombre": "Radio Mundialista",
+          "icono_url": "URL_ICONO_RADIO",
+          "desc_corta": "Música oficial 24/7 para palpitar la Copa del Mundo.",
+          "apk_url": "",
+          "version": "1.0.0",
+          "es_musica": true,
+          "stream_url": "TU_LINK_DE_AUDIO_ACA",
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_youtube",
+      "nombre": "YouTube Sin Anuncios",
+      "apps": [
+        {
+          "id": "tizen",
+          "nombre": "Tizen Tube",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Es el YouTube original pero modificado para no tener publicidad.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": ["URL_FOTO_1", "URL_FOTO_2"]
+        },
+        {
+          "id": "newpipe",
+          "nombre": "New Pipe",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Una alternativa a YouTube muy liviana y sin anuncios.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "smarttube",
+          "nombre": "Smart Tube",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Similar a YouTube, excelente para usar en la TV sin interrupciones.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_iptv",
+      "nombre": "Televisión Premium",
+      "apps": [
+        {
+          "id": "xuper",
+          "nombre": "XUPER Tv",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Nuestra app principal. Tiene canales, películas, series, anime, deportes y más.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "magma",
+          "nombre": "Magma Player",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Reproductor para canales, deportes, películas y series.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "venus",
+          "nombre": "Venus tv",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Canales de TV, películas, series y más entretenimiento.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "smarters",
+          "nombre": "IPTV SMARTERS pro",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "App clásica para reproducir canales, películas y series.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "lts",
+          "nombre": "LTS PLAYER",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Aplicación exclusiva para ver canales en vivo. Requiere DG Player.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_cine",
+      "nombre": "Cine y Series",
+      "apps": [
+        {
+          "id": "titan",
+          "nombre": "Titan Hydra",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Excelente catálogo de películas, series, dibujos y novelas. Requiere DG Player.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "epix",
+          "nombre": "Epix Play",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Películas y series de varias plataformas en un solo lugar.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "filmplus",
+          "nombre": "Film plus",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Aplicación para ver películas y series a la carta.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "netmirror",
+          "nombre": "Net mirror",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Películas y series, imita el formato de Netflix.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "netfly",
+          "nombre": "NETFLY",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Similar a Netflix, cuenta con películas y series variadas.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "xpert",
+          "nombre": "XPERT PLAYER",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Reproductor para ver películas y series.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_deportes",
+      "nombre": "Deportes en Vivo",
+      "apps": [
+        {
+          "id": "ak47",
+          "nombre": "Ak47 Sports",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Todo el contenido deportivo en vivo.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "tvlibre",
+          "nombre": "Tv libre",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Especial para ver fútbol y deportes.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "rbtv",
+          "nombre": "RBTV",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Transmisiones de todo tipo de deportes.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "fctv",
+          "nombre": "FCTV33",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Aplicación dedicada a deportes.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_anime",
+      "nombre": "Animación",
+      "apps": [
+        {
+          "id": "kwaii",
+          "nombre": "Kwaii animes",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Todo el anime que busques está acá.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    },
+    {
+      "id": "cat_herramientas",
+      "nombre": "Herramientas del Sistema",
+      "apps": [
+        {
+          "id": "dgplayer",
+          "nombre": "DG Player",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Reproductor necesario para que Titan Hydra y LTS Player funcionen.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "downloader",
+          "nombre": "Downloader",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Herramienta clave para descargar archivos en tu TV Box.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "sendfiles",
+          "nombre": "Send files",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Para enviar archivos fácilmente entre el celular y la TV.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        },
+        {
+          "id": "explorer",
+          "nombre": "Explorador de archivos",
+          "icono_url": "URL_ICONO",
+          "desc_corta": "Para gestionar todas tus descargas y carpetas internas.",
+          "apk_url": "URL_APK",
+          "version": "1.0.0",
+          "es_musica": false,
+          "capturas_url": []
+        }
+      ]
+    }
+  ],
+  "clientes_premium": [
+    {
+      "android_id": "72461708d8af7f71",
+      "nombre_cliente": "Cliente Prueba",
+      "mensaje_bienvenida": "Hola, ¡bienvenido a tu panel de control!",
+      "vip_app": {
+        "activo": true,
+        "fecha_vencimiento": "2026-06-15"
+      },
+      "servicio_wireguard": {
+        "activo": true,
+        "fecha_vencimiento": "2026-06-20",
+        "wireguard_config_url": "URL_LICENCIA_WIREGUARD"
+      }
+    }
+  ]
 }
